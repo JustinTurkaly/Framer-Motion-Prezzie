@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background: linear-gradient(180deg, #0055ff 0%, rgb(0, 153, 255) 100%);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  border-radius: 35px;
+  background: #ef476f;
+}
+
+.App-footer {
+  position: relative;
+  bottom: 20px;
+  right: 20px;
 }
